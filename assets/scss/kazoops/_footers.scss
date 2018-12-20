@@ -1,0 +1,97 @@
+.footer {
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: repeat;
+    padding: rem(60px) 0 0;
+    @include breakpoint(medium) {
+        padding: rem(170px) 0 0;
+    }
+    .footer-logo {
+        height: 152px;
+        width: 392px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .app-links {
+        width: 100%;
+        text-align: center;
+        margin: rem(60px) 0 0;
+        @include breakpoint(medium) {
+            margin: rem(98px) 0 rem(0);
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                margin-right: rem(0px);
+                width: rem(130px);
+                @include breakpoint(medium) {
+                    width: auto;
+                    margin-left: -2px;
+                }
+                @include breakpoint(xl) {
+                    width: auto;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .back-to-top {
+        color: $white-color;
+        font-size: rem(20px);
+        font-family: $heading-font2;
+        background-image: url('../images/arrow-up.svg');
+        background-repeat: no-repeat;
+        background-position: left center;
+        height: rem(80px);
+        width: rem(200px);
+        margin: 0 auto;
+        line-height: rem(80px);
+        text-align: right;
+        @include breakpoint(medium) {
+            margin-top: rem(70px);
+        }
+        a {
+            color: $white-color;
+            text-decoration: none;
+        }
+        &:hover {
+            background-image: url('../images/arrow-up-hover.svg');
+        }
+        &:active {
+            background-image: url('../images/arrow-up-active.svg');
+        }
+    }
+    .footer-bottom {
+        padding: rem(60px) rem(20px) rem(20px);
+        @include breakpoint(medium) {
+            padding: rem(80px) rem(50px) rem(30px);
+        }
+        &:after {
+            display: table;
+            clear: both;
+            content: " ";
+        }
+        .copyright {
+            font-family: $sans-serif-family;
+            font-size: rem(11px);
+            line-height: rem(28px);
+            color: $white-color;
+            float: left;
+        }
+        .siteby {
+            color: #FFFFFF;
+            font-family: Norwester;
+            font-size: 12px;
+            float: right;
+        }
+    }
+    &:after {
+        display: table;
+        clear: both;
+        content: " ";
+    }
+}

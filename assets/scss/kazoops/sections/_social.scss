@@ -1,0 +1,51 @@
+.social-icons {
+    margin-bottom: rem(60px);
+    @include breakpoint(medium) {
+        margin-bottom: rem(0px);
+        @include y_center;
+        position: fixed;
+        left: 20px;
+        z-index: 999;
+    }
+    @include breakpoint(xl) {
+        left: 50px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+            display: inline-block;
+            margin-right: rem(16px);
+            @include breakpoint(medium) {
+                display: list-item;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            @include breakpoint(medium) {
+                margin-right: 0;
+            }
+            &:last-child {
+                margin-bottom: 0
+            }
+            a {
+                display: block;
+                height: 34px;
+                width: 34px;
+                background-color: $lima;
+                border-radius: 100%;
+                color: $white-color;
+                text-align: center;
+                line-height: 34px;
+                &:hover {
+                    background-color: $red;
+                }
+                &:focus, &:active {
+                    background-color: $sky-blue;
+                }
+            }
+        }
+    }
+}

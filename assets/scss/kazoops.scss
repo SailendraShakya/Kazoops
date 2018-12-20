@@ -1,0 +1,49 @@
+@import 'kazoops/variables';
+@import 'kazoops/mixins';
+@import 'kazoops/webfonts';
+// Plugins CSS
+@import "kazoops/plugins/fontawesome-pro/fontawesome";
+@import "kazoops/plugins/fontawesome-pro/brands";
+@import "kazoops/plugins/fontawesome-pro/light";
+@import "kazoops/plugins/fontawesome-pro/regular";
+@import "kazoops/plugins/fontawesome-pro/solid";
+@import "kazoops/plugins/fontawesome-pro/v4-shims";
+@import "kazoops/plugins/plugin-bootstrap-switch";
+@import "kazoops/plugins/plugin-nouislider";
+@import "kazoops/plugins/plugin-datepicker";
+@import "kazoops/plugins/owl.carousel";
+@import "kazoops/plugins/owl.theme.default";
+@import "kazoops/plugins/nice-select";
+// Core CSS
+@import "kazoops/buttons";
+@import "kazoops/inputs";
+@import "kazoops/checkboxes-radio";
+@import "kazoops/progress";
+@import "kazoops/badges";
+@import "kazoops/pagination";
+@import "kazoops/typography";
+@import "kazoops/misc";
+@import "kazoops/pills";
+// components
+@import "kazoops/nucleo-outline";
+@import "kazoops/tabs";
+@import "kazoops/navbar";
+@import "kazoops/dropdown";
+@import "kazoops/alerts";
+@import "kazoops/images";
+@import "kazoops/popups";
+@import "kazoops/modals";
+@import "kazoops/carousel";
+@import "kazoops/footers";
+// Cards
+@import "kazoops/cards";
+@import "kazoops/cards/card-plain";
+@import "kazoops/cards/card-signup";
+@import "kazoops/cards/card-login";
+
+// example pages and sections
+@import "kazoops/general";
+@import "kazoops/sections/header";
+@import "kazoops/sections/social";
+@import "kazoops/pages/home-pages";
+@import "kazoops/responsive";

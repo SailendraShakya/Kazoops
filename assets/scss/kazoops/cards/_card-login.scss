@@ -1,0 +1,28 @@
+.login-page {
+    .card-login {
+        border-radius: $border-radius-large;
+        padding-bottom: $padding-base-horizontal;
+        @include breakpoint(medium) {
+            max-width: rem(405px);
+        }
+        .separator-type-01 {
+            margin-bottom: rem(50px);
+        }
+        .btn-wd {
+            min-width: rem(190px);
+        }
+        .card-footer {
+            margin-top: 0;
+            .forgot-password {
+                margin-top: rem(35px);
+                a {
+                    color: $dark-gray;
+                    text-decoration: underline;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

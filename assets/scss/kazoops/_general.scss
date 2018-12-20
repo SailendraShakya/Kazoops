@@ -1,0 +1,11 @@
+body {
+    line-height: 28px;
+    font-size: 15px;
+    font-family: $sans-serif-family;
+}
+
+.container {
+    // @include breakpoint(xl) {
+    //     max-width: 1350px;
+    // }
+}
